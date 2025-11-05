@@ -1,0 +1,61 @@
+.app {
+  background: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.game-clock {
+  font-size: 20vw;
+  font-weight: bold;
+}
+
+.play-clock {
+  font-size: 12vw;
+  margin-bottom: 1rem;
+}
+
+.score-row {
+  display: flex;
+  justify-content: space-around;
+  font-size: 6vw;
+}
+
+.team button {
+  font-size: 6vw;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 5vw;
+}
+
+.timeout-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(200,0,0,0.9);
+  font-size: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  background: white;
+  color: black;
+  padding: 2rem;
+  margin: 5% auto;
+  width: 80vw;
+  font-size: 6vw;
+}
